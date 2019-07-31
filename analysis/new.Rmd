@@ -1,0 +1,20 @@
+---
+title: "new"
+author: "John Blischak"
+date: "2019-07-31"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Introduction
+
+```{r}
+summary(rnorm(100))
+```
+
+
+```{r}
+plot(1:10)
+```
+
